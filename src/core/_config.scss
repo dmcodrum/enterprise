@@ -2,7 +2,8 @@
 //================================================== //
 
 // IDS-identity vars
-@import '../../node_modules/ids-identity/dist/tokens/web/theme-soho.sass';
+// @import '../../node_modules/ids-identity/dist/tokens/web/theme-soho.sass';
+@import '../../node_modules/ids-identity/dist/tokens/web/theme-uplift.sass';
 
 // Local vars
 @import '../components/colors/colorpalette';
@@ -133,7 +134,7 @@ $badge-error-color: $white;
 $badge-alert-color: $graphite10;
 $badge-good-color: $white;
 $badge-info-color: $white;
-$badge-info-bg-color: $azure07;
+$badge-info-bg-color: $primary-color;
 $badge-neutral-icon-color: $graphite06;
 $badge-neutral-hover-icon-color: $graphite10;
 
@@ -237,9 +238,9 @@ $trigger-disabled-color: $graphite04;
 
 //List View
 $listview-bg-color: $color-primary-contrast;
-$listview-bg-color-alternate: $graphite01;
+$listview-bg-color-alternate: $graphite02;
 $listview-hover-bg-color: $list-hover-color;
-$listview-border-color: $graphite03;
+$listview-border-color: $graphite06;
 $listview-color: $graphite10;
 $listview-secondary-color: $graphite06;
 $listview-tertiary-color: $graphite04;
@@ -259,7 +260,7 @@ $listview-toolbar-button-icon-selected-color: $color-primary;
 
 $listview-full-width-bg-color: $graphite01;
 $listview-full-width-hover-color: $list-hover-color;
-$listview-full-width-border-color: $graphite03;
+$listview-full-width-border-color: $graphite06;
 
 // Listbuilder
 $listbuilder-bg-color: $panel-bg-color;
@@ -407,7 +408,7 @@ $expandable-area-title-color: $graphite10;
 
 // Cardlist
 $cardlist-bg-color: $color-primary-contrast;
-$cardlist-border-color: $graphite03;
+$cardlist-border-color: $graphite06;
 $cardlist-header-color: $graphite10;
 $cardlist-actions-color: $graphite10;
 $cardlist-text-color: $font-color;
@@ -428,8 +429,8 @@ $focus-shadow: rgba(0, 0, 0, .3);
 $switch-checked-color: $color-primary;
 $switch-checked-hover-color: $azure07;
 $switch-checked-bg-color: $azure03;
-$switch-unchecked-bar-color: $graphite04;
-$switch-unchecked-border-color: $graphite03;
+$switch-unchecked-bar-color: $graphite06;
+$switch-unchecked-border-color: $graphite06;
 $switch-unchecked-bg-color: $white;
 $switch-unchecked-color: $font-color;
 $switch-unchecked-pressed-bg-color: $white;
@@ -503,10 +504,10 @@ $modal-primary-color: $graphite10;
 $modal-secondary-color: $graphite06;
 
 // Accordion
-$accordion-bg-color: $graphite01;
-$accordion-border-color: $graphite02;
-$accordion-toplevel-border-color: $graphite03;
-$accordion-pane-bg-color: $graphite02;
+$accordion-bg-color: $white;
+$accordion-border-color: $graphite06;
+$accordion-toplevel-border-color: $graphite06;
+$accordion-pane-bg-color: $white;
 $accordion-icon-color: $graphite06;
 $accordion-icon-hover-color: $graphite10;
 $accordion-text-color: $graphite06;
@@ -514,7 +515,7 @@ $accordion-text-active-color: $graphite10;
 $accordion-hover-border-color: $graphite10;
 $accordion-hover-text-color: $graphite10;
 
-$accordion-panel-border-color: $graphite02;
+$accordion-panel-border-color: $graphite06;
 
 $accordion-alternate-bg-color: $white;
 $accordion-alternate-border-color: $graphite02;
@@ -575,7 +576,7 @@ $rating-hover-color: $color-primary;
 // Tabs
 $tab-text-color: $font-color;
 $tab-selected-color: $color-primary;
-$tab-border-color: $graphite03;
+$tab-border-color: $graphite06;
 $tab-hover-color: $font-color-extrahighcontrast;
 
 $tab-alt-bg-color: $white;
@@ -614,8 +615,8 @@ $datagrid-header-bg-color: $slate06;
 $datagrid-nested-header-bg-color: $slate05;
 $datagrid-nested-header-border-color: $graphite03;
 $datagrid-header-border-color: $graphite03;
-$datagrid-header-hover-color: $graphite08;
-$datagrid-header-active-color: $graphite08;
+$datagrid-header-hover-color: $slate08;
+$datagrid-header-active-color: $slate08;
 $datagrid-header-checkbox-border-color: $graphite03;
 $datagrid-sort-icon-color: $graphite04;
 $datagrid-sort-icon-sorted-color: $white;
