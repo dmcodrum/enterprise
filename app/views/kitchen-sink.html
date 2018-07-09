@@ -1,26 +1,193 @@
+{{>components/masthead/example-index}}
+
+<div class="row" style="display: flex">
+    <div style="width: 30%;">
+    <br />
+    {{>components/accordion/example-accordion-panels}}
+    <br />
+    {{>components/listview/example-singleselect}}
+    </div>
+    <div style="width: 70%;">
+        {{>components/toolbar/example-index}}
+        {{>components/tabs/example-index}}
+        <br />
+        <div style="float: left; width: 400px;">
+          {{>components/input/example-index}}
+          {{>components/dropdown/example-index}}
+          {{>components/multiselect/example-index}}
+          {{>components/lookup/example-index}}
+        </div>
+        <div style="float: left; width: 400px;">
+          {{>components/datepicker/example-index}}
+          {{>components/timepicker/example-index}}
+          {{>components/colorpicker/example-index}}
+          {{>components/radios/example-index}}
+          
+          {{>components/checkboxes/example-index}}
+          <br />
+          {{>components/switch/example-index}}
+        </div>
+        <div style="width: 800px;">
+          {{>components/tag/example-index}}
+          <br />
+          {{>components/alerts/example-index}}
+          <br />
+          <br />
+          <br />
+          {{>components/badges/example-index}}
+          <br />
+          <br />
+          <br />
+          {{>components/slider/example-index}}
+          <br />
+          {{>components/button/example-index}}
+          {{>components/popover/example-index}}
+          {{>components/contextualactionpanel/example-index}}
+          <br />
+          {{>components/modal/example-index}}
+          <br />
+          {{>components/datagrid/example-index}}
+      </div>
+    </div>
+</div>
+
 <!-- Basics -->
 <div class="row">
-  <div class="twelve columns">
-    <h2 class="fieldset-title">Typography</h2>
+    <div class="twelve columns">
+      <hr class="fieldset-hr"/>
+      <h2 class="fieldset-title">Color Palette</h2>
+    </div>
   </div>
-</div>
-{{>components/typography/example-index}}
+  {{>components/colors/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+      <hr class="fieldset-hr"/>
+      <h2 class="fieldset-title">Typography 123</h2>
+    </div>
+  </div>
+  {{>components/typography/example-index}}
+
+    <!-- Charts -->
 
 <div class="row">
-  <div class="twelve columns">
+    <div class="twelve columns">
     <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Color Palette</h2>
+        <h2 class="fieldset-title">Pie Chart</h2>
+    </div>
   </div>
-</div>
-{{>components/colors/example-index}}
+  {{>components/pie/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Donut Chart</h2>
+    </div>
+  </div>
+  {{>components/donut/example-index}}
+  
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Vertical Bar Chart</h2>
+    </div>
+  </div>
+  {{>components/bar/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Stacked Bar - Vertical</h2>
+    </div>
+  </div>
+  {{>components/bar-stacked/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Stacked Bar - Vertical 100%</h2>
+    </div>
+  </div>
+  {{>components/bar-stacked/example-stacked-100}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Grouped Bar Chart</h2>
+    </div>
+  </div>
+  {{>components/bar-grouped/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Column Chart</h2>
+    </div>
+  </div>
+  {{>components/column/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Stacked Column Chart</h2>
+    </div>
+  </div>
+  {{>components/column-stacked/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Sparklines</h2>
+    </div>
+  </div>
+  {{>components/sparkline/example-index}}
+  
+  
+  <div class="row">
+    <div class="twelve columns">
+    <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Line Chart</h2>
+    </div>
+  </div>
+  {{>components/line/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+      <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Area Chart</h2>
+    </div>
+  </div>
+  {{>components/area/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+      <hr class="fieldset-hr"/>
+      <h2 class="fieldset-title">Bullet Chart</h2>
+    </div>
+  </div>
+  {{>components/bullet/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+      <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Radar Chart</h2>
+    </div>
+  </div>
+  {{>components/radar/example-index}}
+  
+  <div class="row">
+    <div class="twelve columns">
+      <hr class="fieldset-hr"/>
+        <h2 class="fieldset-title">Treemap Chart</h2>
+    </div>
+  </div>
+  {{>components/treemap/example-index}}
+  
+  <br/>
+  <br/>
 
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Form Action Buttons</h2>
-  </div>
-</div>
-{{>components/button/example-index}}
+  
 
 <div class="row">
   <div class="twelve columns">
@@ -41,14 +208,6 @@
 <div class="row">
   <div class="twelve columns">
     <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Text Input Fields</h2>
-  </div>
-</div>
-{{>components/input/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
     <h2 class="fieldset-title">Text Input Field Sizes</h2>
   </div>
 </div>
@@ -61,22 +220,6 @@
   </div>
 </div>
 {{>components/textarea/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Single-Select Dropdown</h2>
-  </div>
-</div>
-{{>components/dropdown/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Single-Select Lookup</h2>
-  </div>
-</div>
-{{>components/lookup/example-index}}
 
 <div class="row">
   <div class="twelve columns">
@@ -97,38 +240,6 @@
 <div class="row">
   <div class="twelve columns">
     <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Date Picker</h2>
-  </div>
-</div>
-{{>components/datepicker/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Time Picker</h2>
-  </div>
-</div>
-{{>components/timepicker/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Multi-Select Dropdown</h2>
-  </div>
-</div>
-{{>components/multiselect/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Color Picker</h2>
-  </div>
-</div>
-{{>components/colorpicker/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
     <h2 class="fieldset-title">Spin Box</h2>
   </div>
 </div>
@@ -145,60 +256,12 @@
 <div class="row">
   <div class="twelve columns">
     <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Checkboxes</h2>
-  </div>
-</div>
-{{>components/checkboxes/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Switches</h2>
-  </div>
-</div>
-{{>components/switch/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Radios</h2>
-  </div>
-</div>
-{{>components/radios/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
     <h2 class="fieldset-title">Editor - Html</h2>
   </div>
 </div>
 {{>components/editor/example-index}}
 
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Slider</h2>
-  </div>
-</div>
-{{>components/slider/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Toolbar Actions</h2>
-  </div>
-</div>
-{{>components/toolbar/example-index}}
-
 <!-- Navigation -->
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Modal</h2>
-  </div>
-</div>
-{{>components/modal/example-index}}
-
 <div class="row">
   <div class="twelve columns">
   <hr class="fieldset-hr"/>
@@ -234,47 +297,10 @@
 <div class="row">
   <div class="twelve columns">
   <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Contextual Action Panel</h2>
-  </div>
-</div>
-{{>components/contextualactionpanel/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
       <h2 class="fieldset-title">Tooltip</h2>
   </div>
 </div>
 {{>components/tooltip/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Popover</h2>
-  </div>
-</div>
-{{>components/popover/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Tabs</h2>
-  </div>
-</div>
-{{>components/tabs/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Masthead</h2>
-  </div>
-</div>
-
-<div class="row">
-  <div class="twelve columns">
-{{>components/masthead/example-index}}
-  </div>
-</div>
 
 <div class="row">
   <div class="twelve columns">
@@ -288,14 +314,6 @@
 
 <div class="row">
   <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Listview</h2>
-  </div>
-</div>
-{{>components/listview/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
   <hr class="fieldset-hr"/>
       <h2 class="fieldset-title">Bread Crumb</h2>
   </div>
@@ -306,57 +324,12 @@
 <div class="row">
   <div class="twelve columns">
   <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Datagrid</h2>
-  </div>
-</div>
-{{>components/datagrid/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
       <h2 class="fieldset-title">Accordion</h2>
   </div>
 </div>
 {{>components/accordion/example-index}}
 
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Accordion Panels</h2>
-  </div>
-</div>
-{{>components/accordion/example-accordion-panels}}
-
 <!--  Visualisation -->
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Tags</h2>
-  </div>
-</div>
-<div class="row">
-  <div class="twelve columns">
-  {{>components/tag/example-index}}
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Badges</h2>
-  </div>
-</div>
-{{>components/badges/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Alerts</h2>
-  </div>
-</div>
-{{>components/alerts/example-index}}
-
 <div class="row">
   <div class="twelve columns">
   <hr class="fieldset-hr"/>
@@ -396,122 +369,3 @@
   </div>
 </div>
 {{>components/progress/example-index}}
-
-<!-- Charts -->
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Pie Chart</h2>
-  </div>
-</div>
-{{>components/pie/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Donut Chart</h2>
-  </div>
-</div>
-{{>components/donut/example-index}}
-
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Vertical Bar Chart</h2>
-  </div>
-</div>
-{{>components/bar/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Stacked Bar - Vertical</h2>
-  </div>
-</div>
-{{>components/bar-stacked/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Stacked Bar - Vertical 100%</h2>
-  </div>
-</div>
-{{>components/bar-stacked/example-stacked-100}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Grouped Bar Chart</h2>
-  </div>
-</div>
-{{>components/bar-grouped/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Column Chart</h2>
-  </div>
-</div>
-{{>components/column/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Stacked Column Chart</h2>
-  </div>
-</div>
-{{>components/column-stacked/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Sparklines</h2>
-  </div>
-</div>
-{{>components/sparkline/example-index}}
-
-
-<div class="row">
-  <div class="twelve columns">
-  <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Line Chart</h2>
-  </div>
-</div>
-{{>components/line/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Area Chart</h2>
-  </div>
-</div>
-{{>components/area/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-    <h2 class="fieldset-title">Bullet Chart</h2>
-  </div>
-</div>
-{{>components/bullet/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Radar Chart</h2>
-  </div>
-</div>
-{{>components/radar/example-index}}
-
-<div class="row">
-  <div class="twelve columns">
-    <hr class="fieldset-hr"/>
-      <h2 class="fieldset-title">Treemap Chart</h2>
-  </div>
-</div>
-{{>components/treemap/example-index}}
-
-<br/>
-<br/>

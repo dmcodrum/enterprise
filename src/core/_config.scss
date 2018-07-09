@@ -55,9 +55,9 @@ $signin-title-color: $graphite07;
 
 // New Text Colors
 $font-color-default: $graphite10;
-$font-color-descriptive: $graphite06;
+$font-color-descriptive: $graphite08;
 $font-color-hyperlink: $primary-color;
-$font-color-muted: $graphite04;
+$font-color-muted: $graphite06;
 $font-color-alert: $alert-red;
 
 //The hyperlink Style
@@ -128,7 +128,7 @@ $badge-error-color: $white;
 $badge-alert-color: $graphite10;
 $badge-good-color: $white;
 $badge-info-color: $white;
-$badge-info-bg-color: $azure07;
+$badge-info-bg-color: $primary-color;
 $badge-neutral-icon-color: $graphite06;
 $badge-neutral-hover-icon-color: $graphite10;
 
@@ -202,20 +202,20 @@ $button-font-size: 14;
 $menubutton-height: 34px;
 
 // Input Fields
-$input-border-color: $graphite04;
+$input-border-color: $graphite06;
 $input-color: $graphite10;
-$input-bg-color: transparent;
-$input-disabled-bg-color: transparent;
+$input-bg-color: $white;
+$input-disabled-bg-color: $white;
 $input-disabled-border-color: $graphite03;
 $input-disabled-color: $disabled-color;
 $input-hover-border-color: $graphite08;
 $input-focus-border-color: $primary-color;
-$input-placeholder-color: $graphite04;
+$input-placeholder-color: $graphite06;
 $input-readonly-border-color: $input-border-color;
 $input-readonly-bg-color: $graphite02;
 $input-readonly-color: $graphite10;
 
-//States
+// States
 $error-color: $alert-red;
 $error-color-transparent: rgba($alert-red, .3);
 $error-focus-box-shadow:  0 0 4px 2px $error-color-transparent;
@@ -241,11 +241,11 @@ $trigger-active-color: $primary-color;
 $trigger-focus-color: $primary-color;
 $trigger-disabled-color: $graphite04;
 
-//List View
+// List View
 $listview-bg-color: $inverse-color;
 $listview-bg-color-alternate: $graphite01;
 $listview-hover-bg-color: $graphite02;
-$listview-border-color: $graphite03;
+$listview-border-color: $graphite06;
 $listview-color: $graphite10;
 $listview-secondary-color: $graphite06;
 $listview-tertiary-color: $graphite04;
@@ -265,7 +265,7 @@ $listview-toolbar-button-icon-selected-color: $primary-color;
 
 $listview-full-width-bg-color: $graphite01;
 $listview-full-width-hover-color: $graphite02;
-$listview-full-width-border-color: $graphite03;
+$listview-full-width-border-color: $graphite06;
 
 // Listbuilder
 $listbuilder-bg-color: $panel-bg-color;
@@ -290,7 +290,7 @@ $fieldfilter-border-side-color: transparent;
 // Formatter Toolbar
 $formatter-toolbar-separator-color: $graphite04;
 
-//Contextual Toolbar
+// Contextual Toolbar
 $contextual-toolbar-bg-color: $primary-color;
 $contextual-toolbar-color: $inverse-color;
 $contextual-toolbar-button-color: rgba($inverse-color, .8);
@@ -413,7 +413,7 @@ $expandable-area-title-color: $graphite10;
 
 // Cardlist
 $cardlist-bg-color: $inverse-color;
-$cardlist-border-color: $graphite03;
+$cardlist-border-color: $graphite06;
 $cardlist-header-color: $graphite10;
 $cardlist-actions-color: $graphite10;
 $cardlist-text-color: $font-color;
@@ -421,8 +421,8 @@ $cardlist-text-color: $font-color;
 // Checkboxes
 $checkbox-color: $primary-color;
 $checkbox-arrow-color: #ffffff;
-$checkbox-border-color: $graphite04;
-$checkbox-bg-color: transparent;
+$checkbox-border-color: $graphite06;
+$checkbox-bg-color: $white;
 $checkbox-hover-border-color: $graphite08;
 $checkbox-disabled-font-color: $graphite04;
 $checkbox-disabled-border-color: $graphite03;
@@ -439,8 +439,8 @@ $focus-shadow: rgba(0, 0, 0, .3);
 $switch-checked-color: $primary-color;
 $switch-checked-hover-color: $azure07;
 $switch-checked-bg-color: $azure03;
-$switch-unchecked-bar-color: $graphite04;
-$switch-unchecked-border-color: $graphite03;
+$switch-unchecked-bar-color: $graphite06;
+$switch-unchecked-border-color: $graphite06;
 $switch-unchecked-bg-color: $white;
 $switch-unchecked-color: $font-color;
 $switch-unchecked-pressed-bg-color: $white;
@@ -468,8 +468,8 @@ $editor-top-focus-box-shadow: -2px -2px 3px 0 rgba(54, 138, 192, .3);
 $editor-blockquote-color: $graphite06;
 
 // Radio Buttons
-$radio-bg-color: transparent;
-$radio-border-color: $graphite04;
+$radio-bg-color: $white;
+$radio-border-color: $graphite06;
 $radio-hover-border-color: $graphite08;
 $radio-selected-color: $primary-color;
 $radio-selected-bg-color: $white;
@@ -518,10 +518,10 @@ $modal-primary-color: $graphite10;
 $modal-secondary-color: $graphite06;
 
 // Accordion
-$accordion-bg-color: $graphite01;
-$accordion-border-color: $graphite02;
-$accordion-toplevel-border-color: $graphite03;
-$accordion-pane-bg-color: $graphite02;
+$accordion-bg-color: $white;
+$accordion-border-color: $graphite06;
+$accordion-toplevel-border-color: $graphite06;
+$accordion-pane-bg-color: $white;
 $accordion-icon-color: $graphite06;
 $accordion-icon-hover-color: $graphite10;
 $accordion-text-color: $graphite06;
@@ -529,7 +529,7 @@ $accordion-text-active-color: $graphite10;
 $accordion-hover-border-color: $graphite10;
 $accordion-hover-text-color: $graphite10;
 
-$accordion-panel-border-color: $graphite02;
+$accordion-panel-border-color: $graphite06;
 
 $accordion-alternate-bg-color: $white;
 $accordion-alternate-border-color: $graphite02;
@@ -590,7 +590,7 @@ $rating-hover-color: $primary-color;
 // Tabs
 $tab-text-color: $font-color;
 $tab-selected-color: $primary-color;
-$tab-border-color: $graphite03;
+$tab-border-color: $graphite06;
 $tab-hover-color: $font-color-extrahighcontrast;
 
 $tab-alt-bg-color: $white;
@@ -627,8 +627,8 @@ $datagrid-border-color: $graphite02;
 $datagrid-header-color: #ffffff;
 $datagrid-header-bg-color: $slate06;
 $datagrid-header-border-color: $graphite03;
-$datagrid-header-hover-color: $graphite08;
-$datagrid-header-active-color: $graphite08;
+$datagrid-header-hover-color: $slate08;
+$datagrid-header-active-color: $slate08;
 $datagrid-header-checkbox-border-color: $graphite03;
 $datagrid-sort-icon-color: $graphite04;
 $datagrid-sort-icon-sorted-color: $white;

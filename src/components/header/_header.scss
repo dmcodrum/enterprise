@@ -8,7 +8,7 @@ $subheader-height: 60px;
 // Top Header
 .header {
   @include transition(background-color 500ms cubic-bezier(.17, .04, .03, .94));
-  background-color: $header-bg-color;
+  background-color: $primary-color;
   display: block;
   height: $header-height;
   overflow: hidden;

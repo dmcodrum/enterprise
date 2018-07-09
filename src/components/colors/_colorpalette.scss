@@ -1,112 +1,116 @@
 // Color Variables
+// Kayiu's notes //
+// This palette is using XM's blue 0055ff as inpiration //
+// Using the hsl color model, non Graphite and Slate colors are consistent in lightness based on #6 at 50%; Lightness for Graphite and Slate is based on #6 at 35%; exact same hue is applied to each color. See Sketch file for more details. //
 //================================================== //
 
 $white: #ffffff;
 $black: #000000;
 
-$azure01: #c8e9f4;
-$azure02: #addbeb;
-$azure03: #8dc9e6;
-$azure04: #69b5dd;
-$azure05: #54a1d3;
-$azure06: #368ac0;
-$azure07: #2578a9;
-$azure08: #1d5f8a;
-$azure09: #134d71;
-$azure10: #133c59;
+$azure01: #D1DFFA;
+$azure02: #ACC5F6;
+$azure03: #88ABF2;
+$azure04: #6391EE;
+$azure05: #3E77EA;
+$azure06: #195EE6;
+$azure07: #154FC1;
+$azure08: #11409C;
+$azure09: #0D3177;
+$azure10: #0A255C;
 
-$amber01: #fbe9bf;
-$amber02: #f8e09c;
-$amber03: #f7d475;
-$amber04: #f4c951;
-$amber05: #f2bc41;
-$amber06: #efa836;
-$amber07: #ee9a36;
-$amber08: #e4882b;
-$amber09: #db7726;
-$amber10: #d66221;
+$amber01: #FCECCF;
+$amber02: #FADCA8;
+$amber03: #F8CD81;
+$amber04: #F6BD5A;
+$amber05: #F4AE34;
+$amber06: #F29E0D;
+$amber07: #CB850B;
+$amber08: #A56C09;
+$amber09: #7E5207;
+$amber10: #613F05;
 
-$amethyst01: #ede3fc;
-$amethyst02: #daccec;
-$amethyst03: #c7b4db;
-$amethyst04: #b59eca;
-$amethyst05: #a38db7;
-$amethyst06: #9279a6;
-$amethyst07: #806594;
-$amethyst08: #6e5282;
-$amethyst09: #5d3e70;
-$amethyst10: #4b2a5e;
+$amethyst01: #E6DAF1;
+$amethyst02: #D1BCE6;
+$amethyst03: #BD9FDB;
+$amethyst04: #A881CF;
+$amethyst05: #9464C4;
+$amethyst06: #8046B9;
+$amethyst07: #6B3B9B;
+$amethyst08: #57307E;
+$amethyst09: #422460;
+$amethyst10: #331C4A;
 
-$turquoise01: #c0ede3;
-$turquoise02: #a9e1d6;
-$turquoise03: #8ed1c6;
-$turquoise04: #7cc0b5;
-$turquoise05: #69ada3;
-$turquoise06: #579e95;
-$turquoise07: #448d83;
-$turquoise08: #317c73;
-$turquoise09: #206b62;
-$turquoise10: #0e5b52;
+$turquoise01: #D4F7F0;
+$turquoise02: #B1F1E3;
+$turquoise03: #8EEBD7;
+$turquoise04: #6CE5CB;
+$turquoise05: #49DFBE;
+$turquoise06: #26D9B2;
+$turquoise07: #20B696;
+$turquoise08: #1A9379;
+$turquoise09: #14715D;
+$turquoise10: #0F5747;
 
-$ruby01: #f4bcbc;
-$ruby02: #eb9d9d;
-$ruby03: #de8181;
-$ruby04: #d26d6d;
-$ruby05: #c65f5f;
-$ruby06: #b94e4a;
-$ruby07: #ad4242;
-$ruby08: #a13030;
-$ruby09: #941e1e;
-$ruby10: #880e0e;
+$ruby01: #F7D4D7;
+$ruby02: #F1B1B6;
+$ruby03: #EB8E96;
+$ruby04: #E56C76;
+$ruby05: #DF4955;
+$ruby06: #D92635;
+$ruby07: #B6202D;
+$ruby08: #931A24;
+$ruby09: #71141C;
+$ruby10: #570F15;
 
-$emerald01: #d5f6c0;
-$emerald02: #c3e8ac;
-$emerald03: #afdc91;
-$emerald04: #9cce7c;
-$emerald05: #89bf65;
-$emerald06: #76b051;
-$emerald07: #66a140;
-$emerald08: #56932e;
-$emerald09: #488421;
-$emerald10: #397514;
+$emerald01: #D6F5D6;
+$emerald02: #B6EDB6;
+$emerald03: #95E495;
+$emerald04: #74DC74;
+$emerald05: #54D454;
+$emerald06: #33CC33;
+$emerald07: #2BAB2B;
+$emerald08: #238B23;
+$emerald09: #1B6A1B;
+$emerald10: #145214;
 
-$graphite01: #f0f0f0;
-$graphite02: #d8d8d8;
-$graphite03: #bdbdbd;
-$graphite04: #999999;
-$graphite05: #737373;
-$graphite06: #5c5c5c;
-$graphite07: #454545;
-$graphite08: #383838;
-$graphite09: #292929;
-$graphite10: #1a1a1a;
+$graphite01: #f7f7f7;
+$graphite02: #D9D9D9;
+$graphite03: #BABABA;
+$graphite04: #9C9C9C;
+$graphite05: #7D7D7D;
+$graphite06: #595959;
+$graphite07: #474747;
+$graphite08: #363636;
+$graphite09: #242424;
+$graphite10: #121212;
 
-$slate01: #dee1e8;
-$slate02: #c8cbd4;
-$slate03: #abaeb7;
-$slate04: #888b94;
-$slate05: #656871;
-$slate06: #50535a;
-$slate07: #414247;
-$slate08: #313236;
-$slate09: #212224;
-$slate10: #1c1819;
+$slate01: #F6F7F8;
+$slate02: #D3D6DE;
+$slate03: #B0B5C4;
+$slate04: #8D95AA;
+$slate05: #6A7490;
+$slate06: #4C5367;
+$slate07: #3D4252;
+$slate08: #2E323E;
+$slate09: #1E2129;
+$slate10: #0F1115;
 
-$alert-red: #e84f4f;
+$alert-red: #D92635;
 $alert-bg-red: rgba(232, 79, 79, .10);
-$alert-orange: #ff9426;
+$alert-orange: #F29E0D;
 $alert-bg-orange: rgba(255, 148, 38, .10);
-$alert-yellow: #ffd726;
-$alert-green: #80ce4d;
+$alert-yellow: #FFD726;
+$alert-green: #33cc33;
 $alert-bg-green: rgba(128, 206, 77, .10);
 $alert-info: $azure06;
 $alert-bg-info: rgba(54, 138, 192, .10);
 $alert-neutral: #dbdbdb;
 
-$alert01: #e84f4f;
-$alert02: #ff9426;
-$alert03: #ffd726;
-$alert04: #80ce4d;
+$alert01: #D92635;
+$alert02: #F29E0D;
+$alert03: #FFD000;
+$alert04: #33cc33;
+
 
 // Generate Color Classes for The Sass Variables
 $color-names: ruby01 ruby02 ruby03 ruby04 ruby05 ruby06 ruby07 ruby08 ruby09 ruby10
@@ -126,3 +130,4 @@ $color-vars: $ruby01 $ruby02 $ruby03 $ruby04 $ruby05 $ruby06 $ruby07 $ruby08 $ru
  $amethyst01 $amethyst02 $amethyst03 $amethyst04 $amethyst05 $amethyst06 $amethyst07 $amethyst08 $amethyst09 $amethyst10
  $graphite01 $graphite02 $graphite03 $graphite04 $graphite05 $graphite06 $graphite07 $graphite08 $graphite09 $graphite10
  $slate01 $slate02 $slate03 $slate04 $slate05 $slate06 $slate07 $slate08 $slate09 $slate10 $alert01 $alert02 $alert03 $alert04;
+

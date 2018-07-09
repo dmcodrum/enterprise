@@ -111,9 +111,28 @@ charts.removeTooltip = function removeTooltip() {
  * @private
  * @type {array}
  */
-charts.colorRange = ['#2578A9', '#8ED1C6', '#C7B4DB', '#5C5C5C', '#F2BC41', '#76B051', '#B94E4E',
-  '#8DC9E6', '#DB7726', '#317C73', '#EB9D9D', '#737373', '#89BF65', '#C7B4DB',
-  '#54A1D3', '#6e5282', '#AFDC91', '#69ADA3', '#EE9A36', '#D8D8D8'];
+charts.colorRange = [
+  '#6391EE',
+  '#6CE5CB',
+  '#A881CF',
+  '#F6BD5A',
+  '#E56C76',
+  '#74DC74',
+  '#B94E4E',
+  '#8DC9E6',
+  '#DB7726',
+  '#317C73',
+  '#EB9D9D',
+  '#737373',
+  '#89BF65',
+  '#C7B4DB',
+  '#54A1D3',
+  '#6e5282',
+  '#AFDC91',
+  '#69ADA3',
+  '#EE9A36',
+  '#D8D8D8'
+];
 
 /**
  * The colors as an array for placement
@@ -137,19 +156,19 @@ charts.chartColor = function chartColor(i, chartType, data) {
   // Handle passed in colors.
   if (specifiedColor) {
     if (specifiedColor === 'error') {
-      return '#e84f4f';
+      return '#D92635';
     }
     if (specifiedColor === 'alert') {
-      return '#ff9426';
+      return '#F29E0D';
     }
     if (specifiedColor === 'alertYellow') {
-      return '#ffd726';
+      return '#FFD000';
     }
     if (specifiedColor === 'good') {
-      return '#80ce4d';
+      return '#33CC33';
     }
     if (specifiedColor === 'neutral') {
-      return '#bdbdbd';
+      return '#BABABA';
     }
     if (specifiedColor && specifiedColor.indexOf('#') === 0) {
       return data.color;
